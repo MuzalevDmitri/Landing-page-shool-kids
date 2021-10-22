@@ -1,0 +1,266 @@
+@font-face {
+    font-family: "18vagroundedmbold"; 
+    src: url("./fonts/18vagroundedmbold.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+    } 
+
+    @font-face {
+        font-family: "muller"; 
+        src: url("./fonts/MullerBold.ttf") format("truetype"); 
+        font-style: normal; 
+        font-weight: normal; 
+        } 
+    
+* {
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+.header {
+    width: 1921px;
+    height: 1221px;
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+   
+
+
+
+.header__content {
+    width: 1455px;
+    min-height: 775px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  
+}
+
+.menu {
+    background-color: #FF3D00;
+    width: 1455px;
+    height: 74px;
+    border-radius: 22px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #FFF;
+    padding: 0px 20px 0px 111px;
+    font-family: 'muller';
+
+}
+
+.social-icons img {
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.number img {
+    width: 35px;
+    height: 35px;
+} 
+
+.social-icons img:hover {
+    transform: scale(1.3);
+}
+
+.menu ul {
+    display: flex;
+}
+
+
+.menu ul li {
+    display: flex;
+    list-style-type: none;
+    font-family: Muller;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 136%;
+    margin-left: 50px;
+}
+
+.number{
+    display: flex;
+}
+
+.tel {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-size: 35px;
+    line-height: 36px;
+    text-align: right;
+    letter-spacing: -0.04em;
+}
+
+.logo {
+    display: flex;
+    align-items:center;
+}
+
+.logo img {
+    width: 35px;
+    height: 35px;
+}
+
+.logo__text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 3px;
+}
+.text-top {
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.text-bottom {
+    font-size: 12px;
+}
+
+
+.header__text {
+    display: flex;
+    align-items: center;
+    height: 760px;
+
+
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    padding: 14px 26px;
+}
+
+.info span {
+    text-align: center;
+    background: #FF3D00;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    box-shadow: 1px 9px 23px rgba(0, 0, 0, 0.25);
+    border-radius: 29.5756px;
+    color: #FFF;
+    font-size:88px;
+    width: 627px;
+    position: relative;
+    font-size: 1;
+    font-family: '18vagroundedmbold';
+    padding: 14px 27px;
+    z-index: 5;
+
+}
+
+.info span:last-child {
+    font-size: 57px;
+    left: 50px;
+    font-size: 2;
+    transform: rotate(-3.16deg);
+
+
+}
+
+.info h1 {
+    font-weight: bold;
+    font-size:162px;
+    color: #000066;
+    font-family:"muller";
+    color: #000066;
+    line-height: 0.9;
+    text-shadow: 8.53006px 8.53006px 6.0929px rgba(0, 0, 0, 0.25);
+}
+
+.header__text img {
+    position: relative;
+    right: 130px;
+    width:880px;
+    height: 750px;
+    top: 70px;
+}
+
+.blur {
+    position: absolute;
+    width: 924.22px;
+    height: 516.02px;
+    left: 529px;
+    top: 181.77px;
+    
+    background: radial-gradient(54.37% 67.96% at 24.52% 46.82%, rgba(255, 255, 255, 0.6) 100%, rgba(255, 255, 255, 0) 100%);
+    filter: blur(229px);
+    transform: rotate(-4.58deg);
+    z-index: 4;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 2em;
+    font-family: 'muller';
+    color: #FF3D00;
+    font-size: 36px;
+   
+}
+.forms {
+    display: flex;
+    justify-content: center;
+    margin-top: 5em;
+    align-items: center;
+}
+
+input {
+    background:#000066;
+    width: 291px;
+    background: #000066;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    height: 65px;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 5px 10px;
+    font-size: 20px;
+    font-family: 'muller';
+
+}
+
+input:first-child {
+    border-radius: 22px 0px 0px 22px;
+}
+
+input::placeholder {
+    color: #fff;
+    opacity: 0.3;
+}
+
+.go {
+    font-family: 'muller';
+    border: 5px solid #fff;
+    position: relative;
+    width: 325px;
+    height: 67px;
+    cursor: pointer;
+    color: #fff;
+    background: #FF3D00;
+    box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 22px;
+    right: 20px;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align:center;
+
+    
+}
+
+
+
+
+
+
+
+
+
